@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://bootstrapmade.com/demo/templates/Logis/assets/img/hero-bg.png);
+    background-color: #0e1d34;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    width: 90%;
+    height: 15vh;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.navDiv1{
+    width: 20%;
+    height: 15vh;
+    display: inline-flex;
+    align-items: center;
+}
+.navDiv2{
+    width: 55%;
+    height: 15vh;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+#ul1{
+    display: inline-flex;
+    list-style: none;
+}
+#ul1>li{
+    margin-right: 25px;
+    font-size: 20px;
+}
+#ul1>li>a{
+    color: white;
+    text-decoration: none;
+}
+#a{
+    font-size:33px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+#button{
+    width: 70px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.div{
+    width: 90%;
+    height: 80vh;
+    display: inline-flex;
+}
+.div1{
+    width: 50%;
+    height: 80vh;
+}
+.div2{
+    width: 50%;
+    height: 70vh;
+}
+.div3{
+    width: 100%;
+    height: 12vh;
+    margin-top: 30px;
+}
+.div4{
+    width: 21%;
+    height: 27vh;
+    display: inline-flex;
+    margin-left: 20px;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+}
+#p{
+    margin-top: 100px;
+    margin-left: -80px;
+}
+#input{
+    width: 100%;
+    height: 11vh;
+    border-radius: 10px;
+
+}
+#button1{
+    width: 130px;
+    height: 60px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 550px;
+    background-color: blue;
+    color: white;
+}
+#h2{
+    font-size: 53px;
+    color: white;
+}
+#p1{
+    font-size: 18px;
+    color: white;
+}
+#img{
+    width: 100%;
+    height: 70vh;
+}
+main{
+    width: 100%;
+   
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.div5{
+    width: 90%;
+    height: 100vh;
+    background-color: aqua;
+}
+.div6{
+    width: 100%;
+    height: 28vh;
+    background-color: blueviolet;
+    display: inline-flex;
+}
+.section{
+    width: 90%;
+    height: 100vh;
+}
+.div7{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #001973;
+}
+.div8{
+    width: 100%;
+    height: 90vh;
+}
+.div9{
+    width: 30%;
+    height: 60vh;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.div9>img{
+    width: 100%;
+    height: 40vh;
+}
+.div9>a{
+    font-size: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #001973;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div9>p{
+    margin-top: 10px;
+}
+.section1{
+    width: 90%;
+    height: 60vh;
+    margin-top: 250px;
+    display: inline-flex;
+}
+.div11{
+    width: 45%;
+    height: 55vh;
+}
+.div12{
+    width: 45%;
+    height: 45vh;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.div11>img{
+    width: 100%;
+    height: 55vh;
+}
+.div12>h1{
+    font-size: 28px;
+    color: #001973;
+    font-weight: bold;
+}
+.div12>p{
+    font-size: 19px;
+    margin-top: 20px;
+
+}
+.div12>ul>li{
+    font-size: 20px;
+    margin-top: 10px;
+    list-style: none;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.div13{
+   width: 90%;
+   height: 100vh;
+}
+.div14{
+   width: 100%;
+   height: 15vh;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   color: #001973;
+}
+.div15{
+    width: 100%;
+    height: 85vh;
+}
+.div16{
+    width: 30%;
+    height: 75vh;
+    background-color: white;
+    display: inline-flex;
+    margin-left: 30px;
+    margin-top: 15px;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 4px black;
+}
+.div17{
+    width: 30%;
+    height: 75vh;
+    background-color: white;
+    display: inline-flex;
+    margin-left: 30px;
+    margin-top: 15px;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 4px black;
+    border-top: 5px solid blue;
+}
+#h3{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#h4{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: dodgerblue;
+}
+#p2{
+    font-size: 21px;
+    margin-top: -32px;
+    margin-left: 90px;
+}
+#p3{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+#button2{
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: blue;
+    list-style: none;
+}
+#button3{
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: blue;
+    list-style: none;
+}
+#p4{
+    font-size: 21px;
+    margin-top: -32px;
+    margin-left: 110px;
+}
+#p5{
+    font-size: 21px;
+    margin-top: -32px;
+    margin-left: 110px;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #0e1d34;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.div18{
+    width: 90%;
+    height: 44vh;
+}
+.div19{
+    width: 35%;
+    height: 20vh;
+}
+.div20{
+    width: 20%;
+    height: 15vh;
+    display: inline-flex;
+    
+}
+.div21{
+    width: 60%;
+    height: 44vh;
+    background-color: chartreuse;
+    margin-left: 550px;
+    margin-top: px;
+    display: inline-flex;
+}
+.div22{
+    width: 30%;
+    height: 44vh;
+    background-color: rgb(225, 225, 225);
+    margin-left: 20px;
+}
+.div23{
+    width: 20%;
+    height: 8vh;
+    background-color: rgb(243, 242, 242);
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.div19>h1{
+    color: white;
+}
+.div19>p{
+    color: white;
+}
+#h5{
+    font-size: 22px;
+    margin-top: 15px;
+}
+#h6{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.div22>ul>li{
+   font-size: 22px;
+   color: rgba(255, 255, 255, 0.6);
+}
